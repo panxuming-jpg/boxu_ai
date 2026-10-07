@@ -1,24 +1,9 @@
-# 依赖
+# 仅排除依赖目录（可由 package.json 重装）
 node_modules/
 
-# 环境变量（含 API 密钥，严禁提交）
-.env
-.env.*
-*.env
-
-# 运行数据与用户文件
-server/data/
-server/uploads/
-
-# 构建产物
-web/dist/
-
-# 日志与系统文件
-*.log
+# 系统与编辑器文件
 .DS_Store
 Thumbs.db
-
-# 编辑器
 .trae/
 .vscode/
 .idea/
